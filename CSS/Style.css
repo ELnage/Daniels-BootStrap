@@ -113,6 +113,7 @@ h1 , h2 , h3 , h4 , h5 , h6 {
 }
 #navbar nav button.btn {
    border: none;
+   box-shadow: 0 0 0 0;
 }
 /* end navbar */
 /* start home  */
@@ -484,6 +485,11 @@ position: relative;
    font-size: 25px;
    color: black;
    
+}
+@media (max-width:576px) {
+   #Clients .controls i {
+      display: none;
+   }
 }
 /* end Clients  */
 /* start our-numbers  */
