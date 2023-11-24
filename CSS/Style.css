@@ -665,3 +665,42 @@ footer p {
    word-spacing: 2px;
 }
 /* end footer  */
+
+
+/* media  */
+@media (max-width:767px) {
+   /* :root {
+      font-size: 10px;
+   } */
+   #HOME .home-text p {
+      font-size: 3rem;
+   }
+   #HOME .home-text h1 {
+      font-size: 1.8rem;
+   }
+   @keyframes textmove {
+   0% {
+      content: 'Larry Daniels';
+      width: 0;
+   }
+   30% {
+      content: "Larry Daniels";
+      width: 195px;
+   }
+   40% {
+      width: 0;
+   }
+   60% {
+      width: 152px;
+      content: 'Developer';
+   }
+   80% {
+      width: 0;
+   }
+   100% {
+      width: 135px;
+      content: 'Designer';
+   }
+}
+}
+/* media  */
